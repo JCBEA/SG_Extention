@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Monster Hunter Rise Cheats",
+    "version": "1.0",
+    "description": "This is a sidebar extension for Microsoft Edge.",
+    "permissions": ["storage", "sidePanel"],
+    "side_panel": {
+    "default_path": "index.html"
+        },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"],
+   "action": {
+    "default_icon": {
+      "16": "magno.png",
+      "48": "magno.png",
+      "128": "magno.png"
+  }
+}
+  }
+  
